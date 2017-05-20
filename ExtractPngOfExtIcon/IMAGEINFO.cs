@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace ExtractPngOfExtIcon
+namespace ExtensionIconExtractor
 {
-    partial class Program
-    {
         [StructLayout(LayoutKind.Sequential)]
-        public struct IMAGEINFO
+        internal struct IMAGEINFO
         {
             public IntPtr hbmImage;
             public IntPtr hbmMask;
@@ -15,5 +13,4 @@ namespace ExtractPngOfExtIcon
             public RECT rcImage;
         }
 
-    }
 }

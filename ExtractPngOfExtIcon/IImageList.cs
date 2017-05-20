@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace ExtractPngOfExtIcon
+namespace ExtensionIconExtractor
 {
-    partial class Program
-    {
         [ComImportAttribute()]
         [GuidAttribute("46EB5926-582E-4017-9FDF-E8998DAA0950")]
         [InterfaceTypeAttribute(ComInterfaceType.InterfaceIsIUnknown)]
-        public interface IImageList
+        internal interface IImageList
         {
             [PreserveSig]
             int Add(
@@ -162,6 +160,4 @@ namespace ExtractPngOfExtIcon
             int iOverlay,
             ref int piIndex);
         };
-
-    }
 }

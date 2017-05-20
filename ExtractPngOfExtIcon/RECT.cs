@@ -1,14 +1,11 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace ExtractPngOfExtIcon
+namespace ExtensionIconExtractor
 {
-    partial class Program
+    [StructLayout(LayoutKind.Sequential)]
+    internal struct RECT
     {
-        [StructLayout(LayoutKind.Sequential)]
-        public struct RECT
-        {
-            public int left, top, right, bottom;
-        }
-
+        public int left, top, right, bottom;
     }
+
 }

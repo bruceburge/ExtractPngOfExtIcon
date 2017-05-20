@@ -1,15 +1,11 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace ExtractPngOfExtIcon
+namespace ExtensionIconExtractor
 {
-    partial class Program
-    {
         [StructLayout(LayoutKind.Sequential)]
-        public struct POINT
+        internal struct POINT
         {
             int x;
             int y;
         }
-
-    }
 }

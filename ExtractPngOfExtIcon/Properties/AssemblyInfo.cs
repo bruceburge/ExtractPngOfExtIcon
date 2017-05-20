@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ExtractPngOfExtIcon")]
+[assembly: AssemblyTitle("ExtensionIconExtractor")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ExtractPngOfExtIcon")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyProduct("ExtensionIconExtractor")]
+[assembly: AssemblyCopyright("None")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

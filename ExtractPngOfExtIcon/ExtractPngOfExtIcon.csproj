@@ -5,9 +5,9 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{22798754-51FB-4C6C-AEC9-0E163D6ABA41}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>ExtractPngOfExtIcon</RootNamespace>
-    <AssemblyName>ExtractPngOfExtIcon</AssemblyName>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ExtensionIconExtractor</RootNamespace>
+    <AssemblyName>ExtensionIconExtractor</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -48,10 +51,11 @@
     <Compile Include="IMAGEINFO.cs" />
     <Compile Include="IMAGELISTDRAWPARAMS.cs" />
     <Compile Include="POINT.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Extractor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RECT.cs" />
     <Compile Include="Shell32.cs" />
+    <Compile Include="ShellIconSizes.cs" />
     <Compile Include="SHFILEINFO.cs" />
     <Compile Include="SHGFI.cs" />
   </ItemGroup>
